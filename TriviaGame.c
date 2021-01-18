@@ -101,7 +101,7 @@ int hardQuestion(void)
 	printf("\nEnter your selection: ");
 	scanf_s("%d", &iAnswer);
 	return iAnswer;
-}//end of hard ass question function
+}//end of hard question function
 
 
 //void function definition
