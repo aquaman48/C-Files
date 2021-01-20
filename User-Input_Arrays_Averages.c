@@ -7,7 +7,7 @@ int main()
     //iNums is our array, i is for loop iteration count, n is for how many numbers users will input.
     //sum = 0 but then will equal to sum of users input after each iteration.
     int i;
-    float fNums[5], fSum = 0.00, fAverage;
+    float fNums[5] = {0}, fSum = 0.00, fAverage;
 
     printf("Be prepared to Enter five whole numbers.\n");
 
@@ -18,11 +18,9 @@ int main()
 
         // adding integers entered by the user to the sum variable
         fSum += fNums[i];
-    }
-    for (i = 1; i < 5; ++i)
-    {
         if (fNums[0] < fNums[i])
             fNums[0] = fNums[i];
+        
     }
 
     fAverage = fSum / 5;
