@@ -37,7 +37,7 @@ int main()
 		switch (userResponse) {
 		case 1:
 
-			printf("\nPlease enter a SIX digit PIN numner separated by spaces. Please do not start with 0!\n");
+			printf("\nPlease enter a SIX digit PIN number separated by spaces. Please do not start with 0!\n");
 
 			scanf_s("%d %d %d %d %d %d", &pinA[0], &pinA[1], &pinA[2], &pinA[3], &pinA[4], &pinA[5]);
 
